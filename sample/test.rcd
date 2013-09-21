@@ -1,0 +1,25 @@
+// [RCD] 
+Val
+{
+}
+Key
+{
+}
+Body
+{
+	Core() { }
+}
+Lua
+{spirytus = {};
+	open_spirytus = loadlib("./Spirytus.DLL", "rc_OpenSpirytus");
+	open_spirytus();
+require("ttata/color.lua")
+require "Boot"{"cel/Equa","ttata/Graphics", "ttata/Input", "ttata/Puppet"}
+
+
+
+function OnFrame()
+	CallPuppet(test.cmoge)
+
+	 
+end}
