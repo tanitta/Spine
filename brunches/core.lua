@@ -216,6 +216,11 @@ namespace"trit"{
 				end
 			);
 			
+			method"cosAng"
+			:body(function(self,a,b,step)
+				return (-math.cos(ang(math.acos(1-2*a),math.pi*b,math.pi/step))+1)/2
+			end);
+			
 		};
 		
 		class "Core"{
