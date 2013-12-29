@@ -164,7 +164,7 @@ namespace"trit"{
 					table.insert(self.cTabMessage,"Spine  version "..tostring(0.02).." alpha\n")
 					table.insert(self.cTabMessage,"...loaded Commander")
 					table.insert(self.cTabMessage,"................................................................")
-					
+					self.id = 0
 				end
 			);
 			
@@ -219,6 +219,11 @@ namespace"trit"{
 			method"cosAng"
 			:body(function(self,a,b,step)
 				return (-math.cos(ang(math.acos(1-2*a),math.pi*b,math.pi/step))+1)/2
+			end);
+			
+			method"GetID"
+			:body(function(self)
+				return self.id
 			end);
 			
 		};
