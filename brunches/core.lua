@@ -226,6 +226,11 @@ namespace"trit"{
 				return self.id
 			end);
 			
+			method"varRange"
+			:body(function(self,a,b,c)
+				return limit(a,b,c)
+			end);
+			
 		};
 		
 		class "Core"{
