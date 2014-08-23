@@ -1,4 +1,4 @@
 return{
 	name = "Spine";
-	{"brunches"};
+	{"core.lua"};
 };
