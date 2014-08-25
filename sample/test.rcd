@@ -1,4 +1,4 @@
-// [RCD] 
+// [RCD]
 Val
 {
 }
@@ -14,12 +14,12 @@ Lua
 	open_spirytus = loadlib("./Spirytus.DLL", "rc_OpenSpirytus");
 	open_spirytus();
 require("ttata/color.lua")
-require "Boot"{"cel/Equa","ttata/Graphics", "ttata/Input", "ttata/Puppet"}
+require "Boot"{"cel/Equa","ttata/Graphics", "ttata/Input", "ttata/Spine"}
 
 
 
 function OnFrame()
-	CallPuppet(test.cmoge)
+	CallSpine(test.cmoge)
 
-	 
+
 end}
